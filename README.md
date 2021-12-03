@@ -2,8 +2,6 @@
 
 ## 개요
 
----
-
 - GAN 이란?
     - Generative Adversarial Networks
     - 두 개의 모델이 존재하며, 하나의 모델은 가짜를 생성하고 다른 모델은 진짜 중에서 생성된 가짜를 구별하며 학습하는 신경망
@@ -13,8 +11,6 @@
 
 ## GAN
 
----
-
 - 두 개의 모델이 존재
 - 하나는 생성자(Generator)이며, 다른 하나는 판별자(Discriminator)
 - 생성자는 실제 데이터의 분포를 학습하여 실제와 유사한 가짜 데이터를 생성
@@ -23,8 +19,6 @@
 ![https://user-images.githubusercontent.com/37301677/84800902-6dcd0a80-b039-11ea-8754-5e6bc53698b6.png](https://user-images.githubusercontent.com/37301677/84800902-6dcd0a80-b039-11ea-8754-5e6bc53698b6.png)
 
 ## DCGAN
-
----
 
 ### 1. 시스템 구조
 
